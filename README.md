@@ -2,7 +2,7 @@
 ---
 ### INTRODUCTION
   The project is developed for implementing various machine learning algorithms in Python from scratch. These algorithms encompass THREE parts:
-1. **SUPERVISED LEARNING **
+1. **SUPERVISED LEARNING**
 - KNN
 - Decision Trees
 - Random Forest
@@ -20,6 +20,7 @@
 - PCA
 - SVD
 - MapReduce
+
 ---
 ### REQUIREMENT
 Python3, Numpy, Matplotlib

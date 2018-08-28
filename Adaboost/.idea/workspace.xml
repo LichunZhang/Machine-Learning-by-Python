@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bae194c7-b3f3-454e-9986-657d5ae81cc5" name="Default Changelist" comment="" />
+    <list default="true" id="bae194c7-b3f3-454e-9986-657d5ae81cc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DecisionTree/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecisionTree/test_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecisionTree/test_tree_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecisionTree/tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecisionTree/tree_plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adaboost.py" beforeDir="false" afterPath="$PROJECT_DIR$/adaboost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_adaboost.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_adaboost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +21,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Adaboost$Nosetests_for_test_adaboost_MyTestCase.coverage" NAME="Nosetests for test_adaboost.MyTestCase Coverage Results" MODIFIED="1534951715345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Adaboost$Nosetests_for_test_adaboost_TestBuildStumpCase.coverage" NAME="Nosetests for test_adaboost.TestBuildStumpCase Coverage Results" MODIFIED="1535041722600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Adaboost$Nosetests_in_test_adaboost_py.coverage" NAME="Nosetests in test_adaboost.py Coverage Results" MODIFIED="1535192492113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Adaboost$Nosetests_in_test_adaboost_py.coverage" NAME="Nosetests in test_adaboost.py Coverage Results" MODIFIED="1535360321835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Adaboost$test_adaboost2.coverage" NAME="test_adaboost2 Coverage Results" MODIFIED="1535361697393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Adaboost$Adaboost.coverage" NAME="Adaboost Coverage Results" MODIFIED="1535170472167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
@@ -69,9 +80,92 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1741374148">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="629" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="629" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_adaboost.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+              <folding>
+                <element signature="e#244#259#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adaboost.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+              <folding>
+                <element signature="n#!!doc" />
+                <element signature="e#310#529#0" />
+                <element signature="e#310#372#1" />
+                <element signature="e#563#644#1" />
+                <element signature="e#1157#1573#0" />
+                <element signature="e#1157#1365#1" />
+                <element signature="e#1627#3425#0" />
+                <element signature="e#1627#1821#1" />
+                <element signature="e#2192#3375#0" />
+                <element signature="e#2412#3375#0" />
+                <element signature="e#2412#2428#0" />
+                <element signature="e#2548#3375#0" />
+                <element signature="e#2942#3030#0" />
+                <element signature="e#3154#3375#0" />
+                <element signature="e#3478#3684#1" />
+                <element signature="e#3977#4010#0" />
+                <element signature="e#4257#4298#0" />
+                <element signature="e#4575#4632#0" />
+                <element signature="e#5011#5138#1" />
+                <element signature="e#5309#5633#0" />
+                <element signature="e#5710#7221#0" />
+                <element signature="e#5710#5870#1" />
+                <element signature="e#6074#6107#0" />
+                <element signature="e#6210#6218#0" />
+                <element signature="e#6391#6421#0" />
+                <element signature="e#6533#6971#0" />
+                <element signature="e#6611#6647#0" />
+                <element signature="e#6712#6810#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -90,14 +184,18 @@
       <find>area</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/test_build_stump.py" />
         <option value="$PROJECT_DIR$/Adaboost.py" />
-        <option value="$PROJECT_DIR$/adaboost.py" />
         <option value="$PROJECT_DIR$/test_adaboost.py" />
+        <option value="$PROJECT_DIR$/adaboost.py" />
+        <option value="$PROJECT_DIR$/test_adaboost2.py" />
       </list>
     </option>
   </component>
@@ -107,15 +205,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state />
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -137,6 +237,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -153,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests in test_adaboost.py">
+  <component name="RunManager" selected="Python.test_adaboost2">
     <configuration name="Adaboost" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Adaboost" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,6 +269,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/adaboost.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_adaboost2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Adaboost" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_adaboost.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,9 +335,11 @@
       <item itemvalue="Python.Adaboost" />
       <item itemvalue="Python tests.Nosetests for test_adaboost.TestAdaboostCase" />
       <item itemvalue="Python tests.Nosetests in test_adaboost.py" />
+      <item itemvalue="Python.test_adaboost2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_adaboost2" />
         <item itemvalue="Python tests.Nosetests in test_adaboost.py" />
         <item itemvalue="Python.Adaboost" />
         <item itemvalue="Python tests.Nosetests for test_adaboost.TestAdaboostCase" />
@@ -235,9 +360,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetests_in_test_adaboost_py - 2018.08.25 at 12h 15m 10s.xml">
-      <configuration name="Nosetests in test_adaboost.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Nosetests_in_test_adaboost_py - 2018.08.25 at 14h 28m 39s.xml">
       <configuration name="Nosetests in test_adaboost.py" configurationId="tests" />
     </history-entry>
@@ -265,6 +387,9 @@
     <history-entry file="Nosetests_in_test_adaboost_py - 2018.08.25 at 18h 21m 35s.xml">
       <configuration name="Nosetests in test_adaboost.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Nosetests_in_test_adaboost_py - 2018.08.27 at 16h 58m 44s.xml">
+      <configuration name="Nosetests in test_adaboost.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -276,9 +401,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20512821" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21245421" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -289,7 +415,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50061053" side_tool="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32959184" />
@@ -297,7 +423,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.32967034" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32967034" />
       <window_info anchor="right" id="Database" order="4" weight="0.32967034" />
     </layout>
   </component>
@@ -327,51 +453,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_adaboost.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/adaboost.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="213" lean-forward="true" selection-start-line="213" selection-end-line="213" />
+        <state relative-caret-position="159">
+          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
           <folding>
             <element signature="n#!!doc" />
             <element signature="e#310#529#0" />
             <element signature="e#310#372#1" />
-            <element signature="e#563#1094#0" />
             <element signature="e#563#644#1" />
-            <element signature="e#852#1063#0" />
             <element signature="e#1157#1573#0" />
             <element signature="e#1157#1365#1" />
-            <element signature="e#1627#3411#0" />
-            <element signature="e#1627#1807#1" />
-            <element signature="e#2178#3361#0" />
-            <element signature="e#2398#3361#0" />
-            <element signature="e#2398#2414#0" />
-            <element signature="e#2534#3361#0" />
-            <element signature="e#2928#3016#0" />
-            <element signature="e#3140#3361#0" />
-            <element signature="e#3464#4949#0" />
-            <element signature="e#3464#3669#1" />
-            <element signature="e#3881#4903#0" />
-            <element signature="e#3962#3995#0" />
-            <element signature="e#4242#4283#0" />
-            <element signature="e#4560#4617#0" />
-            <element signature="e#4981#5637#0" />
-            <element signature="e#4981#5108#1" />
-            <element signature="e#5279#5603#0" />
-            <element signature="e#5695#7199#0" />
-            <element signature="e#5688#5841#1" />
-            <element signature="e#6108#6141#0" />
-            <element signature="e#6186#6194#0" />
-            <element signature="e#6369#6399#0" />
-            <element signature="e#6308#6755#0" />
-            <element signature="e#6384#6420#0" />
-            <element signature="e#6496#6594#0" />
+            <element signature="e#1627#3425#0" />
+            <element signature="e#1627#1821#1" />
+            <element signature="e#2192#3375#0" />
+            <element signature="e#2412#3375#0" />
+            <element signature="e#2412#2428#0" />
+            <element signature="e#2548#3375#0" />
+            <element signature="e#2942#3030#0" />
+            <element signature="e#3154#3375#0" />
+            <element signature="e#3478#3684#1" />
+            <element signature="e#3977#4010#0" />
+            <element signature="e#4257#4298#0" />
+            <element signature="e#4575#4632#0" />
+            <element signature="e#5011#5138#1" />
+            <element signature="e#5309#5633#0" />
+            <element signature="e#5710#7221#0" />
+            <element signature="e#5710#5870#1" />
+            <element signature="e#6074#6107#0" />
+            <element signature="e#6210#6218#0" />
+            <element signature="e#6391#6421#0" />
+            <element signature="e#6533#6971#0" />
+            <element signature="e#6611#6647#0" />
+            <element signature="e#6712#6810#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_adaboost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#244#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_adaboost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="e#244#259#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -27,7 +27,8 @@ def load_data_set(f_name):
     :param f_name: 文件名
     :return: 分类数据矩阵，标签数据矩阵
     """
-    num_ft = len(open(f_name).readline().split('\t')) - 1
+    with open(f_name) as f:
+        num_ft = len(f.readline().split('\t')) - 1
     data_mat = []
     label_mat = []
     data = open(f_name)
@@ -39,6 +40,7 @@ def load_data_set(f_name):
             ft_arr.append(float(line_dat[i]))
         data_mat.append(ft_arr)
         label_mat.append(float(line_dat[-1]))
+    data.close()
     return data_mat, label_mat
 
 
@@ -61,7 +63,7 @@ def stump_classify(data_mat, dim, thresh, thresh_ineq):
 
 def build_stump(data_arr, labels_arr, w_data):
     """
-    弱分类器，在数据集上找到最佳的单层决策树(桩)
+    弱分类器，通过选择特征所在维度和阈值，在数据集上找到最佳的单层决策树(桩)
     :param data_arr:    输入数据集（数组）
     :param labels_arr:  输入的类标签 （数组）
     :param w_data:      数据的权重向量
@@ -107,7 +109,7 @@ def build_stump(data_arr, labels_arr, w_data):
 
 def train(data_arr, labels_arr, num_iter=40):
     """
-    利用弱分类器，进行adaboost的迭代运算，即训练, 得到的一系列弱分类器可以构成强分类器
+    利用弱分类器训练，即进行adaboost的迭代运算, 不断更新权重参数, 得到的一系列弱分类器
     :param data_arr:    输入数据
     :param labels_arr:  输入的类别标签
     :param num_iter:    设定的迭代次数
