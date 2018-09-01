@@ -16,40 +16,39 @@ class MyTestCase(unittest.TestCase):
     def test_calc_entropy(self):
         data_set, labels = trees.load_simple_data()
         entropy = trees.calc_info_entropy(data_set)
-        # print('entropy:', entropy)
-        self.assertLessEqual(entropy - 0.97095059445466858, 1e-10)
+        self.assertLessEqual(0.9709505945, round(entropy, 10))
 
     def test_split_data(self):
         data_set, labels = trees.load_simple_data()
         dat = trees.split_data_set(data_set, 0, 1)
-        res = [[1, 'yes'], [1, 'yes'], [0, 'no']]
-        self.assertEqual(dat, res)
+        res_exp = [[1, 'yes'], [1, 'yes'], [0, 'no']]
+        self.assertEqual(res_exp, dat)
         dat = trees.split_data_set(data_set, 0, 0)
-        res = [[1, 'no'], [1, 'no']]
-        self.assertEqual(dat, res)
+        res_exp = [[1, 'no'], [1, 'no']]
+        self.assertEqual(res_exp, dat)
 
     def test_choose_best_ft(self):
         data_set, labels = trees.load_simple_data()
         index_ft = trees.choose_best_ft(data_set)
-        self.assertEqual(index_ft, 0)
+        self.assertEqual(0, index_ft)
 
     def test_create_tree(self):
         data_set, labels = trees.load_simple_data()
         my_tree = trees.create_tree(data_set, labels)
-        res = {'no surfacing': {0: 'no', 1: {'flippers': {0: 'no', 1: 'yes'}}}}
-        self.assertEqual(my_tree, res)
+        res_exp = {'no surfacing': {0: 'no', 1: {'flippers': {0: 'no', 1: 'yes'}}}}
+        self.assertEqual(res_exp, my_tree)
 
     def test_classify_simple(self):
         data_set, labels = trees.load_simple_data()
         my_tree = tree_plot.retrieve_tree(0)
-        self.assertEqual(trees.classify(my_tree, labels, [1, 0]), 'no')
-        self.assertEqual(trees.classify(my_tree, labels, [1, 1]), 'yes')
+        self.assertEqual('no', trees.classify(my_tree, labels, [1, 0]))
+        self.assertEqual('yes', trees.classify(my_tree, labels, [1, 1]))
 
     def test_pickle_tree(self):
         my_tree = tree_plot.retrieve_tree(0)
         trees.store_tree(my_tree, 'tree_storage.txt')
         grab_tree = trees.grab_tree('tree_storage.txt')
-        self.assertEqual(grab_tree, my_tree)
+        self.assertEqual(my_tree, grab_tree)
 
     def test_classify_loaded(self):
         with open('lenses.txt') as fr:
@@ -57,8 +56,6 @@ class MyTestCase(unittest.TestCase):
         lenses_labels = ['age', 'prescript', 'astigmatic', 'tearRate']
         lenses_tree = trees.create_tree(lenses, lenses_labels)
         tree_plot.create_plot(lenses_tree)
-        self.assertEqual(True, True)
-
 
 if __name__ == '__main__':
     unittest.main()
